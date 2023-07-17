@@ -1,3 +1,45 @@
-$primary: yellow;
+$primary: hsl(152, 41%, 53%);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&display=swap");
+
+#home {
+  background-image: url("beach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#history .max-vyska {
+  max-height: 600px;
+}
+
+#price .max-vyska {
+  height: 16rem;
+  width: 18rem;
+}
+
+#gallery .max-vyska {
+  height: 80vh;
+}
+
+.odst1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.odst2 {
+  font-family: "Merriweather", serif;
+}
+
+.ztmaveni {
+  background-color: hsla(0, 0%, 0%, 0.6);
+  padding: 0.5rem;
+}
+
+.ikony-velke {
+  font-size: 4rem;
+}
+
+.address {
+  font-size: 1rem;
+}
