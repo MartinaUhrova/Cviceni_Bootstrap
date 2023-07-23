@@ -1,21 +1,28 @@
 $primary: hsl(151, 45%, 82%);
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&display=swap");
 
 #home {
-  background-image: url("beach.jpg");
+  background-image: url("../beach.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
   color: white;
 }
 
 #history .max-vyska {
-  max-height: 600px;
+  max-height: 500px;
+  
 }
 
 #price .max-vyska {
   width: 100%;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px hsl(0, 0%, 0%);
 }
 
 .odst1 {
@@ -35,6 +42,30 @@ $primary: hsl(151, 45%, 82%);
   font-size: 4rem;
 }
 
+.ikony-vetsi {
+  font-size: 2rem;
+}
+
 .address {
   font-size: 1rem;
 }
+
+.box {
+  background-color: hsla(0, 0%, 0%, 0.4);
+  border-radius: 15px;
+  padding: 1rem;  
+}
+
+.siroky {
+  width: 100%;
+}
+
+.font-caveat{
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+}
+
+.font-vetsi {
+  font-size: 2rem;
+}
+
